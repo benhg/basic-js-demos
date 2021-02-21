@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Javascript is Fun</title>
+  <script type="text/javascript" src="script.js"> </script>
+</head>
+<body>
+
+  <header>
+    <!-- site-wide header -->
+    <h1>Ben's Beautiful Webpage <!-- site name --></h1>
+  </header>
+
+  <main>
+      <!-- this page’s main content -->
+      <h2 id="js_cool">Javascript is Cool!!</h2>
+      <button onclick="pimp_text()">Pimp Text</button>
+      <button onclick="unpimp_text()">Unpimp Text</button>
+
+      
+      <h2 id="add">We can make things show up on the page:</h2>
+      <button onclick='add_to_page("JS is Great!", "add", "add")'>Display Secret Message</button>
+      <button onclick='clean()'>Remove Secret Message</button>
+
+      <h2 id="loop">We can use loops:</h2>
+      <input id="inbox2">
+      <input type="range" id="how-bad-of-a-child-am-i" min="1" max="1000">
+      <button onclick="accept_fate()">Accept Punishment</button>
+      <button onclick="bye_punishment()">Undo Punishment</button>
+
+      <h2 id="arr">We can take inputs and use arrays:</h2>
+      <input id="inbox">
+      <button onclick="input_fn()">Add Numbers</button>
+
+  </main>
+
+
+</body>
+</html>
